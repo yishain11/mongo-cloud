@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="students.css" />
+    <title>DOC</title>
+  </head>
+  <body>
+    <a href="/">home</a>
+    <h1>students</h1>
+    <h4>Get studetns</h4>
+    <button id="getBtn">GET all students</button>
+    <h4>get filtered students</h4>
+    <form action="" id="getForm">
+      <label for="studentName">Query name</label>
+      <input type="text" name="studentName" id="studentName" />
+      <label for="studentGrades">Query grades</label>
+      <input type="number" name="studentGrades" id="studentGrades" />
+      <button type="submit">Get Filtered students</button>
+    </form>
+    <h4>add student</h4>
+    <form action="" method="post" id="createF">
+      <label for="studentName">Student Name</label>
+      <input type="text" name="studentName" />
+      <label for="studentGrades">Student grades</label>
+      <input type="number" name="studentGrades" />
+      <button type="submit">Create Student</button>
+    </form>
+    <h4>update student</h4>
+    <form action="" method="post" id="updateF">
+      <label for="studentName">Student Name to fetch</label>
+      <input type="text" name="studentName" />
+      <label for="studentGrades">Student grades to update</label>
+      <input type="number" name="studentGrades" />
+      <button type="submit">update Student</button>
+    </form>
+    <h4>delete student</h4>
+    <form action="" method="post" id="deleteF">
+      <label for="studentName">Student Name to delete</label>
+      <input type="text" name="studentName" />
+      <button type="submit">delete Student</button>
+    </form>
+    <script src="students.js"></script>
+  </body>
+</html>
